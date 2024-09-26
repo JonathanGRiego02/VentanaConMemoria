@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.dad</groupId>
+  <artifactId>VentanaMemoria</artifactId>
+  <version>1.0</version>
+  <packaging>jar</packaging>
+
+  <name>VentanaMemoria</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <maven.compiler.target>22</maven.compiler.target>
+    <maven.compiler.source>22</maven.compiler.source>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <exec.mainClass>org.ventanamemoria.Main</exec.mainClass>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-controls</artifactId>
+      <version>22.0.1</version>
+    </dependency>
+  </dependencies>
+</project>
